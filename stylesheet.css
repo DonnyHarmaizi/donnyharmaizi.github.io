@@ -1,0 +1,60 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px 20px 0;
+  margin: 0 auto;
+}
+
+.title {
+text-align: center;
+}
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  display: flexbox;
+  size: 100px;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+.lesson-icon p {
+padding-left: 100px;
+text-align: justify;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #000000;
+  text-align: justify;
+  padding-left: 10px;
+}

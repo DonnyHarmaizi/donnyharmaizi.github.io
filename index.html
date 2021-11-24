@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zettabyte</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <div class="title">
+      <h1>Tata Surya</h1>
+      <p>Planet Yang Diyakini Ilmuwan Dapat Dihuni</p>
+    </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/download (5).jpg">
+              <p>MATAHARI</p>
+            </div>
+            <p class="txt-contents">Tahukah kalian bahwa tata surya yang kita tempati terletak pada suatu galaksi yang bernama Bima Sakti, termasuk salah satu galaksi yang terbesar di jagat raya ini. Galaksi-galaksi lainnya yang terkenal ialah galaksi Magelan, galaksi Andromeda dan masih banyak galaksi lainnya.
+              Matahari adalah pusat tata surya.<span id="dots1">...</span><span id="more1"> Matahari merupakan sebuah bintang yang paling dekat dengan bumi. Seperti bintang lainnya, Matahari merupakan sebuah benda panas yang tersusun oleh berbagai gas yang bertekanan tinggi. Matahari adalah raksasa jika dibandingkan dengan planet yang terbesar sekali pun. Diameter Matahari 109 kali diameter Bumi, yaitu 1,4 juta km. Walaupun Matahari itu berbentuk gas, beratnya lebih dari 300.000 kali berat Bumi.
+              Suhu permukaan matahari 6.000 derajat celsius yang dipancarkan ke luar angkasa hingga sampai ke permukaan bumi, sedangkan suhu inti sebesar 15-20 juta derajat Celsius. Matahari memancarkan energi yang sangat besar dalam bentuk gelombang elektromagnet. Gelombang elektromagnet tersebut adalah gelombang cahaya tampak, sinar X, sinar gamma, sinar ultraviolet, sinar inframerah, dan gelombang mikro </span></p>
+              <button onclick="myFunction()" id="myBtn1">Read more</button>
+            </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/download (4).jpg">
+              <p>BUMI</p>
+            </div>
+            <p class="txt-contents">Bumi adalah planet ketiga dari Matahari yang merupakan planet terpadat dan terbesar kelima dari delapan planet dalam Tata Surya. <span id="dots2">...</span><span id="more2"> Bumi juga merupakan planet terbesar dari empat planet kebumian Tata Surya. Bumi terkadang disebut dengan dunia atau Planet Biru. 
+              Bumi terbentuk sekitar 4,54 miliar tahun yang lalu, dan kehidupan muncul di permukaannya pada miliar tahun pertama. Biosfer Bumi kemudian secara perlahan mengubah atmosfer dan kondisi fisik dasar lainnya, yang memungkinkan terjadinya perkembangbiakan organisme serta pembentukan lapisan ozon, yang bersama medan magnet Bumi menghalangi radiasi surya berbahaya dan mengizinkan makhluk hidup mikroskopis untuk berkembang biak dengan aman di daratan. Sifat fisik, sejarah geologi, dan orbit Bumi memungkinkan kehidupan untuk bisa terus bertahan.</span></p>
+              <button onclick="myFunction()" id="myBtn2">Read more</button>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/download (2).jpg">
+              <p>MARS</p>
+            </div>
+            <p class="txt-contents">Mars adalah planet terdekat keempat dari Matahari. Namanya diambil dari nama Dewa Yunani kuno untuk perang. Namun planet ini juga dikenal sebagai planet merah karena penampakannya yang kemerah-merahan.<span id="dots3">...</span><span id="more3"> Lingkungan Mars lebih bersahabat bagi kehidupan dibandingkan keadaan Planet Venus. Namun begitu, keadaannya tidak cukup ideal untuk manusia. Suhu udara yang cukup rendah dan tekanan udara yang rendah, ditambah dengan komposisi udara yang sebagian besar karbondioksida, menyebabkan manusia harus menggunakan alat bantu pernapasan jika ingin tinggal di sana. Misi-misi ke planet merah ini, sampai penghujung abad ke-20, belum menemukan jejak kehidupan di sana, meskipun yang amat sederhana.</span></p>
+            <button onclick="myFunction()" id="myBtn3">Read more</button>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="image/download (3).jpg">
+              <p>VENUS</p>
+            </div>
+            <p class="txt-contents"> Venus adalah planet terpanas di galaksi kita. Padahal planet Venus bukan planet yang paling dekat dengan matahari,<span <span id="dots4">...</span><span id="more4"> namun Venus adalah planet kedua dari matahari. Nama planet Venus diambil dari nama dewi Romawi. Venus adalah satu-satunya planet yang diberi nama dari nama wanita. Hal ini disebabkan karena planet Venus adalah planet yang tampak bercahaya paling terang diantara planet-planet lainnya. Pada jaman dahulu, venus sering dikira bintang karena sinarnya yang sangat terang. Venus seringkali mudah diamati pada malam dan dini hari. Venus sering disebut sebagai planet kembarannya Bumi. Hal ini karena venus memiliki karakteristik yang hampir mirip dengan Bumi, seperti ukuran, massa, komposisi, dan gravitasi. Massa Venus hanya sedikit lebih kecil, atau sekitar 80% dari massa Bumi.</span></p>
+            <button onclick="myFunction()" id="myBtn4">Read more</button>>
+          </div>
+        </div>
+      </div>
+      <script>
+        function myFunction() {
+          var dots1 = document.getElementById("dots1");
+          var moreText1 = document.getElementById("more1");
+          var btnText1 = document.getElementById("myBtn1");
+        
+          if (dots1.style.display === "none") {
+            dots1.style.display = "inline";
+            btnText1.innerHTML = "Read more"; 
+            moreText1.style.display = "none";
+          } else {
+            dots1.style.display = "none";
+            btnText1.innerHTML = "Read less"; 
+            moreText1.style.display = "inline";
+          }
+        }
+        </script>
+        <script>
+          function myFunction() {
+            var dots2 = document.getElementById("dots2");
+            var moreText2 = document.getElementById("more2");
+            var btnText2 = document.getElementById("myBtn2");
+          
+            if (dots2.style.display === "none") {
+              dots2.style.display = "inline";
+              btnText2.innerHTML = "Read more"; 
+              moreText2.style.display = "none";
+            } else {
+              dots2.style.display = "none";
+              btnText2.innerHTML = "Read less"; 
+              moreText2.style.display = "inline";
+            }
+          }
+          </script>
+  </body>
+</html>
